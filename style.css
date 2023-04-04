@@ -121,8 +121,8 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 305px;
-  height: 305px;
+  /* width: 305px; */
+  /* height: 305px; */
   border-radius: 25px;
   background-image: linear-gradient(var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
   animation: spin 2.5s linear infinite;
