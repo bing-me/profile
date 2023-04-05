@@ -294,7 +294,7 @@ a {
 }
 
 .section {
-  padding-top: 20vh;
+  /* padding-top: 20vh; */
   padding-bottom: 20vh;
 }
 
@@ -354,6 +354,49 @@ a {
 
 /* end of short intro */
 
+/* start of portfolio section */
+/* start bg photo */
+.moth-photo {
+  /* position: relative; */
+  /* z-index: -2; */
+  max-width: 66%;
+  /* color: #ed4723; */
+  /* fill: #368ef3; */
+  /* fill: linear-gradient(to bottom left, #368ef3 , #111215); */
+  /* object-fit: fill; */
+}
+
+.moth {
+  position: relative;
+  top: auto;
+  z-index: -2;
+  display: flex;
+  /* margin-right: auto;
+  margin-bottom: -144px;
+  margin-left: auto;
+  padding-left: 0px; */
+  justify-content: flex-end;
+}
+
+/* end of bg photo */
+
+.section.selected-work {
+  padding-top: 0;
+}
+
+.section.selected-work.night-mode {
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 14vh;
+  padding-bottom: 0vh;
+  color: #111215;
+}
+
+.section.selected-work.night-mode.case {
+  padding-top: 0vh;
+}
+/* end of portfolio section */
+
 /* .hero {
   margin-top: 20vh;
   margin-bottom: 20vh;
@@ -368,21 +411,6 @@ a {
   padding-bottom: 0vh;
 }
 
-.section.selected-work {
-  padding-top: 8vh;
-}
-
-.section.selected-work.night-mode {
-  margin-right: 100px;
-  margin-left: 100px;
-  padding-top: 14vh;
-  padding-bottom: 0vh;
-  color: #111215;
-}
-
-.section.selected-work.night-mode.case {
-  padding-top: 0vh;
-}
 
 .w-layout-grid {
   display: -ms-grid;
@@ -608,14 +636,7 @@ a {
   border-color: #234d7c;
 }
 
-.moth-photo {
-  position: relative;
-  z-index: -2;
-  max-width: 44%;
-  color: #ed4723;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
+
 
 .jey-photo {
   width: 50%;
@@ -1230,24 +1251,6 @@ a {
   align-items: center;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
-}
-
-.moth {
-  position: relative;
-  top: auto;
-  z-index: -2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: auto;
-  margin-bottom: -144px;
-  margin-left: auto;
-  padding-left: 0px;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
 }
 
 .social-link {
