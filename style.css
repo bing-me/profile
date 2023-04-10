@@ -295,7 +295,7 @@ a {
 
 /* acts as spacer for absolute position */
 .section {
-  padding-bottom: 120vh;
+  padding-bottom: 145vh;
 }
 
 .container {
@@ -467,7 +467,7 @@ a {
 
 /* ----------footer---------- */
 
-.email-logo {
+/* .email-logo {
   fill: #f2f7fc;
   max-width: 50px;
 }
@@ -480,12 +480,103 @@ a {
 .linkedin-logo {
   fill: #f2f7fc;
   max-width: 50px;
+} */
+.follow-along h2 {
+  margin: 0px;
+}
+
+.follow-along p {
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+.footer-logo {
+  fill: #f2f7fc;
+  max-width: 50px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .footer-text-link {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #f2f7fc;
+  border-radius: 2px;
+}
+
+.social-link:hover {
+  padding: 25px;
+  border-color: #368ef3;
+}
+
+.social-link.linkedin:hover svg {
+  fill: #0A66C1;
+}
+
+.back-to-top {
+  position: relative;
+  float: right;
+  height: 30px;
+  width: 30px;
+  bottom: 20px;
+  right: 20px;
+  padding: 8px 8px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #f2f7fc;
+  border-radius: 2px;
+  line-height: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .return-icon {
   fill: #f2f7fc;
-  max-width: 50px;
+  max-width: 40%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.return-text{
+  color: #f2f7fc;
+  font-size: 80%;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+
 /* .footer {
   position:absolute;
 } */
@@ -504,13 +595,7 @@ a {
   grid-template-rows: auto auto;
 } */
 /* 
-.social-link {
-  padding: 20px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #f2f7fc;
-  border-radius: 2px;
-}
+
 
 .social-link:hover {
   padding: 24px;
