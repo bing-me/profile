@@ -466,6 +466,26 @@ a {
 }
 
 /* ----------footer---------- */
+
+.email-logo {
+  fill: #f2f7fc;
+  max-width: 50px;
+}
+
+.github-logo {
+  fill: #f2f7fc;
+  max-width: 50px;
+}
+
+.linkedin-logo {
+  fill: #f2f7fc;
+  max-width: 50px;
+}
+
+.return-icon {
+  fill: #f2f7fc;
+  max-width: 50px;
+}
 /* .footer {
   position:absolute;
 } */
