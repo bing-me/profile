@@ -199,17 +199,14 @@ a {
   text-decoration: none;
 }
 
-/* unvisited link */
 a:link {
   color: #f2f7fc;
 }
 
-/* visited link */
 a:visited {
-  color: #368ef3;
+  color: #f2f7fc;
 }
 
-/* mouse over link */
 a:hover {
   color: #368ef3;
 }
@@ -619,7 +616,7 @@ a svg path {
 }
 
 .return-text{
-  color: #f2f7fc;
+  color: currentColor;
   font-size: 80%;
   padding: 0px;
   margin: 0px;
