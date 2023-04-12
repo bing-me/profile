@@ -1,6 +1,6 @@
 /* fonts: trade gothic, roboto, roboto condensed */
 /* colors, black #000000, grey #202020, text white#ffffff blue#00a3e7*/
-/* 
+/*
 body {
   background-color: #000000;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -199,6 +199,25 @@ a {
   text-decoration: none;
 }
 
+/* unvisited link */
+a:link {
+  color: #f2f7fc;
+}
+
+/* visited link */
+a:visited {
+  color: #368ef3;
+}
+
+/* mouse over link */
+a:hover {
+  color: #368ef3;
+}
+
+a svg path {
+  fill: currentColor;
+}
+
 /* end of global settings */
 
 /* navbar */
@@ -264,15 +283,23 @@ a {
 .nav-link.cta:hover {
   background-color: #f2f7fc;
   color: #111215;
+  border-color: #111215;
 }
 
-.nav-link.cta:active {
+/* .nav-link.cta:active {
   margin-top: 12px;
   margin-right: 8px;
   background-color: #234d7c;
   color: #f2f7fc;
+} */
+
+.nav-link.cta:visited {
+  color: #f2f7fc;
 }
 
+.nav-link.cta:visited:hover {
+  color: #111215;
+}
 .menu-button {
   color: #111215;
 }
@@ -300,7 +327,7 @@ a {
 
 .container {
   max-width: 100vw;
-  
+
 }
 
 .name-block {
@@ -410,6 +437,7 @@ a {
   border-width: 4px;
   border-color: #f2f7fc;
   border-radius: 2px;
+  display: flex;
 }
 /* color: #111215; */
 .collection-item:hover {
@@ -425,6 +453,7 @@ a {
   border-radius: 0px;
   color: #f2f7fc;
   text-decoration: none;
+  position: relative;
 }
 
 .portfolio-card-top {
@@ -437,6 +466,8 @@ a {
 .project-image {
   max-width: 90%;
   align-self: center;
+  aspect-ratio: 16 / 9;
+  object-fit: fill;
 }
 
 .project-title {
@@ -446,6 +477,8 @@ a {
 .portfolio-card-content {
   padding: 6%;
   border-top: 4px solid #f2f7fc;
+  padding-bottom: 50px;
+  /* height: 100%; */
 }
 
 .project-description {
@@ -457,6 +490,7 @@ a {
 
 .box-title {
   font-size: 20px;
+  text-decoration: none;
 }
 
 .project-tech-stack {
@@ -469,13 +503,16 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
 }
 
 .portfolio-link {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+  }
 
 .portfolio-logo {
   fill: #f2f7fc;
@@ -615,7 +652,7 @@ a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
 } */
-/* 
+/*
 
 
 .social-link:hover {
@@ -633,4 +670,3 @@ a {
 .social-link-image {
   color: #111215;
 } */
-
