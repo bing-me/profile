@@ -580,7 +580,7 @@ a svg path {
   border-color: #368ef3;
 }
 
-.social-link.linkedin:hover svg {
+.social-link.linkedin:hover svg path {
   fill: #0A66C1;
 }
 
