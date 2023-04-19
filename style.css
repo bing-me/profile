@@ -217,7 +217,7 @@ a svg path {
 
 /* end of global settings */
 
-/* navbar */
+/*------------------- navbar ----------------------------------*/
 .navbar {
   margin-right: auto;
   margin-left: auto;
@@ -306,9 +306,9 @@ a svg path {
   color: #f2f7fc;
 }
 
-/* end of narbar */
+/*---------------- end of narbar -------------------------*/
 
-/* short intro */
+/*---------------- short intro ---------------------------*/
 .section.hero {
   margin-top: 10vh;
   margin-bottom: 4vh;
@@ -580,7 +580,7 @@ a svg path {
   border-color: #368ef3;
 }
 
-.social-link.linkedin:hover svg {
+.social-link.linkedin:hover svg path {
   fill: #0A66C1;
 }
 
@@ -630,6 +630,49 @@ a svg path {
   text-align: center;
 }
 
+
+/* @media only screen (orientation:portrait) { */
+  @media only screen and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+        body {
+      width: 80%;
+      overflow-x: hidden;
+    }
+
+    .home {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .logo.resume {
+      font-size: 20px;
+    }
+
+    .name-block {
+      flex-direction: column;
+    }
+
+    .name-span {
+      line-height: 0.1;
+      font-size: 60px;
+    }
+    .collection-list {
+      flex-direction: column;
+    }
+
+    .section {
+      padding-bottom: 160vh;
+    }
+
+    .social-link {
+      margin: 10px;
+    }
+
+    .follow-along {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
 
 
 /* .footer {
