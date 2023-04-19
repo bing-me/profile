@@ -634,14 +634,14 @@ a svg path {
 /* @media only screen (orientation:portrait) { */
   @media only screen and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
+        body {
+      width: 80%;
+      overflow-x: hidden;
+    }
+
     .home {
       margin-right: auto;
       margin-left: auto;
-    }
-
-    body {
-      width: 80%;
-      overflow-x: hidden;
     }
 
     .logo.resume {
@@ -666,6 +666,11 @@ a svg path {
 
     .social-link {
       margin: 10px;
+    }
+
+    .follow-along {
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
   }
 
