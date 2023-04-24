@@ -469,6 +469,13 @@ a svg path {
 
 .project-title {
   padding: 6%;
+  font-size: 32px;
+}
+
+.project-description-group {
+  color: #368ef3;
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 .portfolio-card-content {
