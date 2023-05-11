@@ -387,7 +387,7 @@ a svg path {
 
 /* start bg photo */
 .hex-vector {
-  max-width: 75%;
+  width: 75%;
   z-index: -1;
   object-fit: fill;
 }
@@ -427,6 +427,7 @@ a svg path {
   border-style: none;
   border-width: 2px;
   border-color: #f2f7fc;
+  justify-content: center;
 }
 
 .collection-item {
@@ -435,6 +436,9 @@ a svg path {
   border-color: #f2f7fc;
   border-radius: 2px;
   display: flex;
+  /* min-width: 450px;
+  max-width: 650px; */
+  width: 30%;
 }
 /* color: #111215; */
 .collection-item:hover {
