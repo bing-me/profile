@@ -173,24 +173,6 @@ h3 {
   font-weight: 400;
 }
 
-h4 {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: Poppins, sans-serif;
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: 500;
-}
-
-h5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 700;
-}
-
 p {
   margin-bottom: 10px;
 }
@@ -264,10 +246,6 @@ a svg path {
   font-weight: 500;
 }
 
-.nav-link.w--current {
-  color: #f2f7fc;
-}
-
 .nav-link.cta {
   padding: 8px 16px;
   border-style: solid;
@@ -297,14 +275,6 @@ a svg path {
 .nav-link.cta:visited:hover {
   color: #111215;
 }
-.menu-button {
-  color: #111215;
-}
-
-.menu-button.w--open {
-  background-color: #111215;
-  color: #f2f7fc;
-}
 
 /*---------------- end of narbar -------------------------*/
 
@@ -313,18 +283,17 @@ a svg path {
   margin-top: 10vh;
   margin-bottom: 4vh;
   padding-top: 6vh;
-  padding-bottom: 6vh;
+  padding-bottom: 33vh;
   padding-left: 16px;
 }
 
 /* acts as spacer for absolute position */
 .section {
-  padding-bottom: 145vh;
+  padding-bottom: 33vh;
 }
 
 .container {
   max-width: 100vw;
-
 }
 
 .name-block {
@@ -386,7 +355,7 @@ a svg path {
 }
 
 /* start bg photo */
-.hex-vector {
+/* .hex-vector {
   width: 75%;
   z-index: -1;
   object-fit: fill;
@@ -400,7 +369,7 @@ a svg path {
   z-index: -1;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 /* end of bg photo */
 /* -------------------------------------------------------------------- */
@@ -408,7 +377,7 @@ a svg path {
 .container.cs {
   flex: 1;
   padding-left: 0px;
-  position: absolute;
+  /* position: absolute; */
   top: 150px;
   /* left: 50px; */
   /* z-index: 1; */
@@ -645,7 +614,7 @@ a svg path {
 /* @media only screen (orientation:portrait) { */
   @media only screen and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
-        body {
+    body {
       width: 80%;
       overflow-x: hidden;
     }
@@ -672,7 +641,7 @@ a svg path {
     }
 
     .section {
-      padding-bottom: 160vh;
+      padding-bottom: 50vh;
     }
 
     .social-link {
@@ -682,6 +651,10 @@ a svg path {
     .follow-along {
       margin-bottom: 30px;
       margin-top: 30px;
+    }
+
+    .collection-item {
+      width: 90%;
     }
   }
 
