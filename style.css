@@ -397,6 +397,7 @@ a svg path {
   border-width: 2px;
   border-color: #f2f7fc;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .collection-item {
@@ -407,7 +408,9 @@ a svg path {
   display: flex;
   /* min-width: 450px;
   max-width: 650px; */
+  flex-wrap: inherit;
   width: 30%;
+  height: inherit;
 }
 /* color: #111215; */
 .collection-item:hover {
@@ -612,7 +615,8 @@ a svg path {
 
 
 /* @media only screen (orientation:portrait) { */
-  @media only screen and (max-device-width: 1024px) and (orientation:portrait) {
+  /* @media only screen and (max-device-width: 1024px) and (orientation:portrait) { */
+  @media only screen and (max-width: 1024px) {
     /* For portrait layouts only */
     body {
       width: 80%;
